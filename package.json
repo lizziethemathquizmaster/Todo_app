@@ -1,4 +1,5 @@
-{ "homepage": "http://sharad1127.github.io/todo_app",
+{
+  "homepage": "https://sharad1127.github.io/todo_app",
   "name": "todo_app",
   "version": "0.1.0",
   "private": true,
