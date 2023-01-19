@@ -41,7 +41,7 @@ function App() {
     <div className="App">
       <div className="addTask">
         <input onChange={handleChange}/>
-        <button onClick={addTask}> Add Task </button>
+        <button onClick={addTask } > Add Task </button>
       </div>
       <div className="list">
         {todoList.map((task) => {
@@ -53,6 +53,7 @@ function App() {
                    completeTask={completeTask}
           />;
         })}
+      
       </div>
     </div>
   );
